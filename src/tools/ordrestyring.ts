@@ -658,6 +658,7 @@ export function registerOrdrestyringTools(server: McpServer, client: Ordrestyrin
             {
               operationName: 'OrdrestyringMcpSearchCustomers',
               rootCandidates: ['customers', 'searchCustomers', 'customerSearch'],
+              searchFields: ['name'],
               preferredScalars: customerPreferredScalars,
               nestedPreferred: customerNestedPreferred,
             },
